@@ -9,7 +9,7 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: 'Events',
+        name: 'Our Events',
         link: '/events',
       },
       {
