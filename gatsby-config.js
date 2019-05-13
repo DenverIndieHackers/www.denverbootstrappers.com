@@ -2,28 +2,23 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
+    title: 'Denver Bootstrapers',
     description: 'my theme',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+
     },
     menuLinks: [
       {
-        name: 'Services',
-        link: '/services',
+        name: 'Events',
+        link: '/events',
       },
       {
-        name: 'Team',
-        link: '/team',
+        name: 'Resources',
+        link: '/resources',
       },
       {
-        name: 'Testimonials',
-        link: '/testimonials',
-      },
-      {
-        name: 'Contact',
-        link: '/contact',
+        name: 'Community',
+        link: '/community',
       },
     ],
   },
